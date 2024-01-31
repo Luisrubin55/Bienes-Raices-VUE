@@ -15,7 +15,7 @@ defineProps({
         cols="12"
         md="4"
     >
-        <v-card>
+        <v-card color="yellow-lighten-5">
             <v-img 
                 :src="propiedad.imagen"
                 height="250"

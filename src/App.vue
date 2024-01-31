@@ -12,7 +12,7 @@ const auth = useAuthStore()
 <template>
   <v-card elevation="3" max-width="1200" class="mx-auto" >
     <v-layout>
-      <v-app-bar color="blue-darken-1" >
+      <v-app-bar color="indigo-darken-4" >
         <template v-slot:prepend>
             <v-btn
               :to="{name: 'home'}"
